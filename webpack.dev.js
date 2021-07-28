@@ -34,5 +34,10 @@ module.exports = merge(common, {
 			}
 		]
 	},
-	mode: 'development'
+	mode: 'development',
+	devServer: {
+		proxy: {
+			'/images': 'http://localhost:3000'
+		}
+	}
 })

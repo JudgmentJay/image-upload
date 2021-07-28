@@ -1,1 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @import url('./reset.scss');
+
+body {
+	padding: 20px;
+
+	font-family: 'Open Sans', sans-serif;
+
+	color: #fff;
+	background-color: #222;
+}

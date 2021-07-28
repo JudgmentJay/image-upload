@@ -15,10 +15,6 @@ module.exports = {
 				test: /\.(jsx?)$/,
 				use: 'babel-loader',
 				include: /src/
-			},
-			{
-				test: /\.(jpg?g|png|gif|svg|webp)$/,
-				type: 'asset/resource'
 			}
 		]
 	},

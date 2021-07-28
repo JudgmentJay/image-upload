@@ -69,6 +69,10 @@ button {
 	cursor: pointer;
 }
 
+input {
+	outline: none;
+}
+
 ::-moz-focus-inner {
 	border: 0;
 }
